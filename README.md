@@ -15,4 +15,5 @@ npm install mint-ui --save
 
 ## 4.引用mint-ui
 import Mint from 'mint-ui'  
+import 'mint-ui/lib/style.css'  
 Vue.use(Mint);
