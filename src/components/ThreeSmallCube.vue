@@ -22,7 +22,7 @@
         name: "ThreeSmallCube",
       data(){
         return{
-          op : 1
+          op : 8
         }
       },
       methods:{

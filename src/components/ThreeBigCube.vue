@@ -21,7 +21,7 @@
       components: {XiongTing, BigBoss, Cube3DBig, Cube3D},
       data(){
         return{
-          op : 0.8
+          op : 8
         }
       },
       methods:{

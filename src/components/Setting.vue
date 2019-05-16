@@ -60,6 +60,7 @@
           }else{
             this.$store.dispatch('modifySwitcher',{switcher:'open'});
           }
+          this.show = false;
         },
       }
     }
