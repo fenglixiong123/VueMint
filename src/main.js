@@ -6,16 +6,17 @@ import router from './router'
 import Mint from 'mint-ui'
 import Axios from 'axios'
 import 'mint-ui/lib/style.css'
+import store from './store'
 
 Vue.config.productionTip = false;
 Vue.prototype.$axios = Axios;
 
 Vue.use(Mint);
 
-/* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 });
