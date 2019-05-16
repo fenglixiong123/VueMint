@@ -30,7 +30,7 @@
           return{
             password:'',
             show:false,
-            boxSwitcher:window.localStorage.getItem('switcher')==='open',
+            boxSwitcher:this.$store.state.switcher==='open',
           }
       },
       methods:{
