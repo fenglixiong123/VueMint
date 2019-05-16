@@ -27,19 +27,19 @@
       <!--底部导航的使用-->
       <mt-tabbar v-model="selected" fixed>
         <mt-tab-item id="外卖">
-          <img slot="icon" src="/static/img/apple.jpg">
+          <img slot="icon" src="static/img/apple.jpg">
           时光
         </mt-tab-item>
         <mt-tab-item id="订单">
-          <img slot="icon" src="/static/img/video.jpg">
+          <img slot="icon" src="static/img/video.jpg">
           我们
         </mt-tab-item>
         <mt-tab-item id="发现">
-          <img slot="icon" src="/static/img/drunk.jpg">
+          <img slot="icon" src="static/img/drunk.jpg">
           精彩
         </mt-tab-item>
         <mt-tab-item id="我的">
-          <img slot="icon" src="/static/img/wood.jpg">
+          <img slot="icon" src="static/img/wood.jpg">
           我的
         </mt-tab-item>
       </mt-tabbar>
